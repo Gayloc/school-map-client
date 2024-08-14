@@ -70,7 +70,6 @@ export default function HomeScreen() {
         injectedJavaScript={INJECTEDJAVASCRIPT}
         source={{ uri: `https://school-map-web.vercel.app?x=${location?.coords.longitude}&y=${location?.coords.latitude}` }}
       />
-      <Text style={{backgroundColor: '#ffffff'}}>{`x=${location?.coords.longitude}&y=${location?.coords.latitude}`}</Text>
     </>
   );
 }
